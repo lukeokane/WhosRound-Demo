@@ -1,0 +1,316 @@
+input[type="text"]::-webkit-input-placeholder {
+    color: #464a4c !important;
+}
+
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+    color: #464a4c !important;  
+}
+
+input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+    color: #464a4c !important;  
+}
+
+input[type="text"]:-ms-input-placeholder {  
+    color: #464a4c !important;  
+}
+
+#backbutton
+{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.badge
+{
+    font-family: 'Lato', sans-serif;
+    border-radius: 50%;
+}
+.table thead th
+{
+    border: none;
+}
+
+#drink-navbar
+{
+    background-color: #424C58;
+    font-size: 20px;
+}
+
+body, html{
+    height: 100%;
+overflow: hidden;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+html {-webkit-overflow-scrolling: touch;
+height: 100%;}
+
+.light {
+    font-weight: 300;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+#basketCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
+.fixed-top
+{
+    padding: 0px;
+    width: 100%;
+    height: 122px;
+    position:inherit;
+}
+
+.tablebtn
+{
+   padding: .6rem 2.5em;
+   color: #ffffff;
+   background-color: #aeb7c2;
+}
+
+.tablebtndiv
+{
+    padding-left: 0.1em;
+}
+
+.collectbtn
+{
+   padding: .6rem 2.5rem;
+   background-color: #aeb7c2;
+    color: #ffffff;
+}
+
+.collectbtndiv
+{
+    padding-right: 0.1em;
+}
+
+.float-right
+{
+    text-align:right;
+}
+
+.basketSubtotal
+{
+    font-size: smaller;
+}
+
+.transactionFee
+{
+    font-size: small;
+}
+
+.total
+{
+    font-size: 25px;
+}
+
+.round
+{
+    border-radius: 2em;
+}
+
+nav.navbar.fixed-top
+{
+    color: white;
+}
+
+#top-navbar
+{
+    background-color: #424C58;    
+}
+
+.table-bordered td, .table-bordered th {
+    border: none;
+}
+
+.table-bordered
+{
+    border: none;
+}
+
+.fa, fa-user
+{
+    font-size: 25px;
+}
+
+.container-fluid
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+html body .container-fluid.body-content
+{
+     position: absolute;
+  top: 90px;
+  bottom: 210px;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.header
+{
+     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+    height: 90px;
+}
+
+.footer
+{
+      position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    height: 205px;
+}
+
+
+.footercontent
+{
+      position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background-color: #ffffff;
+    height: 205px;
+}
+
+
+
+.img-div
+{
+    width: 180px;
+}
+
+
+.minusIcon
+{
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+
+    font-size: 15px;
+    
+     border-left-color: #007aff;
+     border-top-color: #007aff;
+     border-bottom-color: #007aff;
+     border-right-color: #eceeef;
+}
+.singlePrice
+{
+    font-size: 15px;
+}
+
+.itemSpecReq
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+hr
+{
+    margin:0px;
+}
+
+.specInstr
+{
+    font-size: 15px;
+    text-align: center;
+}
+
+.drinkImage
+{
+    padding:2px;
+}
+
+.col-5 > .row
+{
+    margin: 0px;
+}
+
+.drinkImage > img
+{
+      min-height: 90%;
+      max-height: 100%;
+      min-width: 80%;
+      max-width:100%;
+}
+
+.addIcon
+{
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    font-size: 15px;
+     border-right-color: #007aff;
+     border-top-color: #007aff;
+     border-bottom-color: #007aff;
+}
+.quantityInput
+{
+    text-align: center;
+    padding: 0px;
+    border-top-color: #007aff;
+     border-bottom-color: #007aff;
+}
+.deleteIcon
+{
+    height: 40px;
+}
+
+.measurement
+{
+    color: #505050;
+    font-size: smaller;
+}
+
+.singlePrice
+{
+    color: #505050;
+    font-size: smaller;
+}
+
+.drinkName
+{
+    white-space:nowrap;
+    font-size: 20px;
+}
+.item
+{
+   margin: 0px;
+}
+.price
+{
+    padding-left: 1px;
+    padding-right: 0px; 
+    text-align: right;
+    font-size: 17px;
+}
+
+.itemTotPrice
+{
+    display: inline-block;
+}
+p {
+    display:table-cell;
+    height:100%;
+    width: inherit;
+    vertical-align:middle;
+    background:white;
+    text-align:left;
+}

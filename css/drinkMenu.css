@@ -1,0 +1,414 @@
+body, html{
+    height: 100%;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+
+.drinkSelectedImage
+{
+ max-width: 90%;
+}
+
+/* Modal */
+.modal .modal-body {
+    font-size: 1.5em;
+    height: 250px;
+    overflow-y: auto;
+    width : 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.measurementInfo
+{
+    border-bottom: 0.1em solid #808080;
+    padding-top: 0.5em;
+}
+
+.measureSpecInstr
+{
+    margin-bottom: 0.3em;
+}
+
+.measureInfo
+{
+    margin-bottom: 0.3em;
+}
+
+.measureInfo, .measureQuantity
+{
+    margin-bottom: 0.4em;
+}
+
+i.fa.fa-times-circle, i.fa.fa-check-circle
+{
+    font-size: 3em;
+}
+
+i.fa.fa-times-circle
+{
+    color: #FF3B35;
+}
+
+i.fa.fa-check-circle
+{
+    color: #00D437;
+}
+
+.addToBasket, .cancelAdd
+{
+    font-size: 1.2em;
+}
+
+.total
+{
+    font-size: 1.8em;
+}
+
+
+.measureQuantity
+{
+    width: 5.5em;
+}
+
+.row
+{
+    margin:0;
+}
+
+.specInstr
+{
+    border-width: 0.1em;
+    border-color: #808080;
+    font-size: 15px;
+    text-align: center;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.drinkName
+{
+    padding-right:1em;
+    font-size: 1em;
+    word-wrap: break-word;
+}
+
+.drinkPercentage
+{
+    padding-right:0;
+    font-size: 0.8em;
+    word-wrap: break-word;
+}
+.drinkImageDiv
+{
+    padding: 0;
+}
+
+.minusIcon
+{
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+
+    font-size: 15px;
+
+    border-left-color: #007aff;
+    border-top-color: #007aff;
+    border-bottom-color: #007aff;
+    border-right-color: #eceeef;
+}
+
+.addIcon
+{
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    font-size: 15px;
+    border-right-color: #007aff;
+    border-top-color: #007aff;
+    border-bottom-color: #007aff;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.col-centered {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+i.fa.fa-plus, i.fa.fa-minus
+{
+    font-size: 15px;
+}
+.quantityInput
+{
+    text-align: center;
+    padding: 0px;
+    border-top-color: #007aff;
+    border-bottom-color: #007aff;
+}
+
+/* End Modal */
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #808080 !important;
+}
+
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+    color: #808080 !important;  
+}
+
+input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+    color: #808080 !important;  
+}
+
+input[type="text"]:-ms-input-placeholder {  
+    color: #808080 !important;  
+}
+
+#backbutton
+{
+    color: #424C58;
+    text-decoration:none;
+}
+
+.badge
+{
+    font-family: 'Lato', sans-serif;
+    border-radius: 50%;
+}
+.table thead th
+{
+    border: none;
+}
+
+#drink-navbar
+{
+    background-color: #00BDD9;
+    color: #424C58;
+    font-size: 20px;
+}
+
+#previewOrder
+{
+              position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    height: 50px;
+}
+
+nav.navbar.fixed-top
+{
+         position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+    height: 178px;
+    color: white;
+}
+
+html body #listDiv
+{
+         position: absolute;
+  top: 200px;
+  bottom: 54px;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+    width: 100%; 
+}
+
+.light {
+    font-weight: 300;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+#basketCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
+.fixed-top
+{
+    padding: 0px;
+    width: 100%;
+}
+
+#top-navbar
+{
+    background-color: #424C58;    
+}
+
+.table-bordered td, .table-bordered th {
+    border: none;
+}
+
+.table-bordered
+{
+    border: none;
+}
+
+.fa, fa-user
+{
+    font-size: 25px;
+}
+
+.container-fluid
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.img-div
+{
+    width: 180px;
+}
+
+.container
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.element {
+    width:100%;
+    display:table;
+    background: none;
+    padding:2px;
+    border: #424C58 solid thin;
+}
+p {
+    display:table-cell;
+    height:100%;
+    width: inherit;
+    vertical-align:middle;
+    background:white;
+    text-align:left;
+}
+
+
+@media all and (max-width: 2000px) { /* screen size until 1200px */
+    p {
+        font-size: 4em; /* 1.5x default size */
+    }
+    img
+    {
+        height: 130px;
+    }
+
+    #listDiv
+    {
+        width: 100%; 
+        top: 20%;
+    }
+
+    .drinkName
+    {
+        font-size: 2.5em;
+    }
+
+    .drinkPercentage
+    {
+        font-size: 2.1em;
+    }
+}
+@media all and (max-width: 1500px) { /* screen size until 1000px */
+    p {
+        font-size: 2.5em; /* 1.5x default size */
+    }
+    img
+    {
+        height: 130px;
+    }
+    .img-div
+    {
+        width: 300px;
+    }
+    #listDiv
+    {
+        width: 100%; 
+        top: 20%;
+    }
+}
+
+@media all and (max-width: 500px) { /* screen size until 500px */
+    p {
+        font-size: 1.5em; /* 0.8x default size */
+    }
+    img
+    {
+        height: 70px;
+    }
+    
+    .drinkName
+    {
+        font-size: 1.3em;
+    }
+    
+    .drinkPercentage
+    {
+        font-size: 1.2em;
+    }
+
+    .img-div
+    {
+        width: 180px;
+    }
+
+    .drinkImage
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    #listDiv
+    {
+        width: 100%; 
+        top: 30%;
+    }
+}
+
+@media all and (max-width: 350px) { /* screen size until 500px */
+    p {
+        font-size: 1.5em; /* 0.8x default size */
+    }
+    img
+    {
+        height: 70px;
+    }
+
+    .modal .modal-body
+    {
+        height: 220px;
+    }
+
+    .img-div
+    {
+        width: 180px;
+    }
+
+    #listDiv
+    {
+        width: 100%; 
+        top: 40%;
+    }
+}

@@ -1,0 +1,194 @@
+input[type="text"]::-webkit-input-placeholder {
+    color: #464a4c !important;
+}
+
+input[type="text"]:-moz-placeholder { /* Firefox 18- */
+    color: #464a4c !important;  
+}
+
+input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+    color: #464a4c !important;  
+}
+
+input[type="text"]:-ms-input-placeholder {  
+    color: #464a4c !important;  
+}
+
+
+.badge
+{
+    font-family: 'Lato', sans-serif;
+    border-radius: 50%;
+}
+.table thead th
+{
+    border: none;
+}
+
+#drink-navbar
+{
+    background-color: #00BDD9;
+    color: #424C58;
+    font-size: 20px;
+}
+
+body, html{
+    height: 100%;
+
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.light {
+    font-weight: 300;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+#basketCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+}
+
+#listDiv
+{
+    width: 100%; 
+    top: 180px;
+}
+.fixed-top
+{
+    padding: 0px;
+    width: 100%;
+}
+
+nav.navbar.fixed-top
+{
+    color: white;
+}
+
+#top-navbar
+{
+    background-color: #424C58;    
+}
+
+.table-bordered td, .table-bordered th {
+    border: none;
+}
+
+.table-bordered
+{
+    border: none;
+}
+
+.fa, fa-user
+{
+    font-size: 25px;
+}
+
+.container-fluid
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.img-div
+{
+    width: 180px;
+}
+
+.container
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.element {
+    width:100%;
+    display:table;
+    background: none;
+    padding:2px;
+    color: #424C58;
+    border: #00BDD9 solid thin;
+     background-color: #00BDD9;
+     margin-bottom: 3%;
+}
+p {
+    display:table-cell;
+    height:100%;
+    width: inherit;
+    background:white;
+    vertical-align: middle;
+     background-color: #00BDD9;
+     padding: 0px;
+}
+
+
+@media all and (max-width: 2000px) { /* screen size until 1200px */
+    p {
+        font-size: 6em; /* 1.5x default size */
+    }
+     .element
+    {
+        height: 130px;
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    p {
+        font-size: 5em; /* 1.5x default size */
+    }
+     .element
+    {
+        height: 130px;
+    }
+    .img-div
+    {
+        width: 300px;
+    }
+}
+@media all and (max-width: 500px) { /* screen size until 500px */
+    p {
+        font-size: 2em; /* 0.8x default size */
+    }
+     .element
+    {
+        height: 70px;
+    }
+
+    .img-div
+    {
+        width: 180px;
+    }
+
+    #listDiv
+    {
+        width: 100%; 
+        top: 180px;
+    }
+}
+
+@media all and (max-width: 350px) { /* screen size until 500px */
+    p {
+        font-size: 2em; /* 0.8x default size */
+    }
+    .element
+    {
+        height: 70px;
+    }
+
+    .img-div
+    {
+        width: 180px;
+    }
+
+    #listDiv
+    {
+        width: 100%; 
+        top: 180px;
+    }
+}

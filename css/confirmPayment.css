@@ -1,0 +1,115 @@
+body, html{
+    height: 100%;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table thead th
+{
+    border: none;
+}
+
+#drink-navbar
+{
+    background-color: #00BDD9;
+    color: #424C58;
+    font-size: 20px;
+}
+
+nav.navbar.fixed-top
+{
+         position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+    height: 78px;
+    color: white;
+}
+
+html body #listDiv
+{
+         position: absolute;
+  top: 178px;
+  bottom: 54px;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+    width: 100%; 
+}
+
+.light {
+    font-weight: 300;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+
+.fixed-top
+{
+    padding: 0px;
+    width: 100%;
+}
+
+#top-navbar
+{
+    background-color: #424C58;    
+}
+
+.fa, fa-user
+{
+    font-size: 25px;
+}
+
+#pageCenter
+{
+    top: 20%;
+    bottom: 0px;
+    position:fixed;
+    width:100%;
+     text-align:center;
+}
+
+#completedSuccessfully, #orderNumberMsg
+{
+    font-size: 1.3em;
+}
+
+#orderOnWayMSG
+{
+    margin-top: 0.7em;
+}
+
+#emailMSG
+{
+    margin-top: 1em;
+      font-size: 0.9em;
+}
+
+#orderOnWayMSG, #emailMSG
+{
+   color: #8D8D8D;
+}
+
+#menubtn
+{
+    background-color: #FA8E4B;
+    color: white;
+    border-radius: 2em;
+}
+
+i.fa.fa-check-circle-o
+{
+    color: #099C06;
+    font-size: 5em;
+}
+
+#menubtn
+{
+    margin-top: 2.5em;
+    padding-left: 2.5em;
+     padding-right: 2.5em;
+}
